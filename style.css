@@ -131,7 +131,7 @@ h5{
 
 .copyright{
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     color: var(--2nd-main-color);
     background-color: #0b0b13;
     margin-top: 3rem;
@@ -183,6 +183,8 @@ h5{
     h5{
         font-size: 1.2rem;
     }
+
+    
 
 
 }
