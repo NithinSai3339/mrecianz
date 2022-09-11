@@ -58,13 +58,19 @@ span{
     display: flex;
 }
 .navbar a{
+    text-align: center;
     color: var(--text-color);
     font-size: 1rem;
     padding: 10px 20px;
     font-weight: 500;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    
 }
 .navbar a:hover{
     color: var(--main-color);
+    border: solid var(--text-color);
+    box-shadow: 1px 1px 10px var(--main-color);
 }
 #menu-icon{
     font-size: 28px;
