@@ -52,6 +52,26 @@ span{
     letter-spacing: 1px;
 }
 
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 28px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+
 section{
     padding: 120px;
 }
@@ -101,6 +121,32 @@ h5{
 }
 
 @media (max-width: 795px){
+
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: -500px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #0b0b13;
+        box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
+        text-align: left;
+        transition: 0.2s ease;
+    }
+    .navbar a{
+        display: block;
+        padding: 1rem;
+        border-left: 2px solid var(--main-color);
+        margin: 1rem;
+        display: block;
+    }
+    .navbar.active{
+        top: 100%;
+    }
     
     section{
         padding: 80px;
