@@ -129,6 +129,51 @@ h5{
 }
 
 
+
+.contact-info{
+    text-align: center;
+    margin-top: 2rem;
+    background: #0b0b13;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .40s;
+}
+.contact-info:hover{
+    box-shadow: 1px 1px 10px var(--main-color);
+}
+.contact-info h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 9px;
+    color: var(--text-color);
+}
+.contact-info p{
+    font-size: 18px;
+    color: var(--main-color);
+    line-height: 15px;
+}
+
+.sm{
+    background: var(--main-color);
+    color: var(--text-color);
+    border-radius: 15px;
+    margin: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    line-height: 42px;
+    display: inline-block;
+    font-size: 2rem; 
+    transition: ease all 0.35s;
+}
+.sm:hover{
+    color: var(--main-color);
+    background: var(--text-color);
+}
+
+
 .copyright{
     text-align: center;
     padding: 20px;
